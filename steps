@@ -1,0 +1,19 @@
+Steps to merge local repository to remote repository on github using personal access token
+1. Need to generate personal access token.
+
+2. Need to clone your repository locally by using git clone (github clone code https link )
+
+3. Need to connect your local repositoy to remote repository :
+  git remote add origin https://github.com/your-username/your-repository.git  (cd your repository cloned from github).
+  Example (git remote add origin https://github.com/devopssanju14/devopssanju14.git).
+
+4. Add or set remote url to include your username and token:
+  git remote set-url origin https://your-username:your-token@github.com/your-username/your-repository.git
+   Example (git remote set-url origin https://devopssanju14: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@github.com/devopssanju14/devopssanju14.git)
+
+5. Stage, commit, and push your changes:
+   git add .
+   git commit -m "Your commit message"
+   git push origin main
+
+
