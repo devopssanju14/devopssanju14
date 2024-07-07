@@ -1,4 +1,7 @@
 Steps to merge local repository to remote repository on github using personal access token
+=====================================================================================================
+
+
 1. Need to generate personal access token.
 
 2. Need to clone your repository locally by using git clone (github clone code https link )
